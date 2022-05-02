@@ -1,0 +1,88 @@
+
+.contactame{
+display: flex;
+justify-content: center;
+margin: 2.5rem;
+
+text-align: left;
+color: white;
+
+
+}
+
+
+
+
+.titulo-contacto{
+font-size: 2.5rem;
+font-weight: bold;
+color: rgb(255, 255, 255);
+    text-shadow: -3px 3px 0 #ff06ff, -4px 2px 0 #10efff;
+    background-color: rgb(31, 30, 30);
+ text-align: center;
+   margin: 3rem;
+}
+
+form {
+        
+        padding: 40px 0 40px 40px;
+        margin: 10px 0;
+    
+        
+    }
+    
+    form label{
+
+        display:block;
+        font-size: 16px;
+        margin: 0 0 10px;
+
+    }
+    
+    form input, form textarea {
+        display:block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+        
+    }
+
+    .boton-enviar{
+        width: 60%;
+        padding: 10px 0;
+
+        font-size: 20px;
+        font-weight: bold;
+        background:#f9f9f9;
+        border-radius: 10px;
+        cursor:pointer;
+        transition: 1s all;
+
+
+    }
+
+    .boton-enviar:hover{
+        background: rgb(0, 247, 255);
+        
+    }
+
+ /*Footer*/
+
+    footer{
+        width: 100%;
+        background-image: url(imagenes/footer-nuevo.jpg);
+       
+        background-size: cover;
+        text-align: center;
+        padding: 40px;
+        
+    }
+    
+    .copyright, .desarrollo{
+
+        color: white;
+        text-shadow: 2px 2px 4px black;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 15px;
+    }

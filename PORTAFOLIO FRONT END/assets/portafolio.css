@@ -1,0 +1,80 @@
+.portafolioTitulo{
+   font-size: 3rem;
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   text-shadow: -3px 3px 0 #ff06ff, -4px 2px 0 #10efff;
+  background-color: rgb(31, 30, 30);
+ 
+   text-align: center;
+   margin: 4rem;
+
+}
+
+
+.portafolioTodo{
+	margin: .5rem;
+   padding: 8px 0;
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 30px;
+   text-align: center;
+   align-items: center;
+
+}
+
+
+
+.portafolioTodo .trabajos { 
+
+   font-size: 0;
+   text-align: center;
+	
+   font-size: inherit;
+
+}
+
+
+
+
+.trabajos-imagen {
+   
+   width: 50%;
+   
+}
+
+.trabajos-titulo{
+   color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0 #10efff;
+    font-weight: bold;
+   font-size: 2rem;
+   font-family: Arial, cursive; 
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   
+ 
+
+
+}
+.portafolioTodo p{
+   color: white;
+   font-size: 1rem;
+   text-align: center;
+   margin-top: 2rem;
+   margin-bottom: 3rem;
+}
+.Repo{
+   padding: .375rem .75rem;
+   border: 1px solid #00fbff;
+   border-radius: .25rem;
+   color: #ff00e1;
+   transition: color .15s ease-in-out,
+   background-color .15s ease-in-out;
+}
+.btn-borde:hover, .btn-borde:active, .btn-borde:focus {
+   color: #fff;
+   background-color: #00eddd;
+ }
+.Repo a{
+   text-decoration: none;
+   color: #ff00e1;
+}

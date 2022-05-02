@@ -1,0 +1,10 @@
+.navegacion{
+
+    align-items: center;
+  
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}

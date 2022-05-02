@@ -1,0 +1,58 @@
+
+.formaciones{
+    margin: 2.5rem;
+    padding: 8px 0;
+    text-align: center;
+ 
+
+
+}
+.formaciones .formacion{
+      font-size: 0;
+    text-align: center;
+     display: inline-block;
+    font-size: inherit; 
+
+
+}
+
+
+
+.titulo-formacion{
+   font-size:2.5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: -3px 3px 0 #ff06ff, -4px 2px 0 #10efff;
+    
+    background-color: rgb(31, 30, 30);
+    
+
+    text-align: center;
+    margin: 3rem;
+}
+
+.imagen-formacion {
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8rem;
+    margin: 15px;
+ border-radius: 100%;
+}
+
+.formacion select{
+    margin: 7px;
+    padding: 5px;
+    width: 5px;
+}
+.academia{
+    font-weight: bold;
+    
+    text-align: center;
+}
+.formacion{
+    font-weight: bold;
+    font-style: italic;
+}

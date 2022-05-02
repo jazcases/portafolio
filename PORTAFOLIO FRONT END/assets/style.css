@@ -1,0 +1,65 @@
+*{ 
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    background-color: black;
+
+  
+}
+
+
+header{
+    
+  background-image: url(imagenes/nav.JPG);
+  background-size: contain;
+  padding: 5%;
+   width: 100%;
+
+    
+}
+
+.titulo-header{
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+   color: white; 
+   text-shadow: -3px 3px 0 #240424, -6px 7px 0 #020001;
+   letter-spacing: 5px;
+    font-weight: bold;
+    margin: 3rem;
+    text-align: center;
+}
+
+nav{
+   
+    position: absolute;
+    top: 20px;
+    right: 0;
+    
+    }
+
+
+    nav li{
+        display: inline;
+        margin: 0px 0px 0px 13px;
+        padding: 5px;
+    }
+    
+    nav a{
+        text-transform: uppercase;
+        color: white;
+        text-shadow: -1px 1px 0 #f864f8;
+        font-size: .75rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    nav a:hover{
+        color: rgb(0, 255, 234);
+        text-decoration: underline;
+    
+    }
+ 
